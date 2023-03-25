@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: chocolate;
+
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.popup{
+  border: 2px solid black;
+  width: fit-content;
+  margin-left: 50%;
+}
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.input{
+  width:400px;
+  height: 40px;
+}
+.poll {
+  width: 400px;
+  padding: 1.5rem;
+  margin: 50px;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.poll__title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.poll__option:hover {
+  cursor: pointer;
+}
+
+.poll__option{
+  
+  width: 600px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+
+}
+
+.poll-option-selected{
+  width: 600px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: white;
+  padding: 20px;
+}
+
+
+.poll__option:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+
+.poll-option-selected .poll__option-fill {
+  background: #009578;
+  border-radius: 5px;
+  width: 50%;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.poll__option--selected .poll__option-info {
+  font-weight: bold;
+  
+}
+
+.poll__option-fill {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #dddddd;
+}
+
+.poll__option-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  font-size: 0.85rem;
+}
+
+.button{
+  border: 2px solid white;
+  background-color: white;
+  color: chocolate;
+  width:400px;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 50px;
+  margin: 20px;
+
+}
+
+
